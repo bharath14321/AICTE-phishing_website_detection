@@ -4,7 +4,7 @@ Phishing Website Detection using Machine Learning (Random Forest) - AICTE Intern
 
 This project was developed as part of the AICTE Internship Program.
 
-## 📌 Project Overview
+##  Project Overview
 
 Phishing attacks are one of the most common cybersecurity threats. Fraudulent websites mimic legitimate websites to steal sensitive information such as passwords, credit card details, and personal data.
 
@@ -17,7 +17,7 @@ The model is built using a Random Forest Classifier and trained on a labeled dat
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Data preprocessing and cleaning
 - Feature engineering using URL-based attributes
@@ -30,7 +30,7 @@ The model is built using a Random Forest Classifier and trained on a labeled dat
 
 ---
 
-## 🧠 Machine Learning Model
+##  Machine Learning Model
 
 - Algorithm: Random Forest Classifier
 - Dataset Size: 10,000 labeled websites
@@ -39,7 +39,7 @@ The model is built using a Random Forest Classifier and trained on a labeled dat
   - n_estimators = 300
   - max_depth = 20
 
-### 📊 Model Performance
+###  Model Performance
 
 - Accuracy: 86%
 - Precision (Phishing): 0.95
@@ -48,7 +48,7 @@ The model is built using a Random Forest Classifier and trained on a labeled dat
 
 ---
 
-## 🔎 Features Used
+##  Features Used
 
 The model uses 16 numerical features including:
 
@@ -62,7 +62,7 @@ The model uses 16 numerical features including:
 - iFrame usage
 - Mouse-over behavior
 - And more
-⚠️ Known Limitation
+ Known Limitation
 
 The real-time URL prediction feature uses simplified feature extraction based on URL structure.
 
@@ -74,9 +74,9 @@ This limitation does not affect the trained model’s performance on the origina
 
 ---
 
-## 🖥️ How to Run the Project
+##  How to Run the Project
 
-### 1️⃣ Clone the Repository
+###  Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/phishing-website-detection.git
