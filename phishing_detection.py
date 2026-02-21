@@ -16,7 +16,7 @@ import joblib
 # Step 1: Load Dataset
 # ----------------------------------------
 def load_data():
-    url = "https://raw.githubusercontent.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/master/DataFiles/data.csv"
+    url = "https://raw.githubusercontent.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/master/DataFiles/5.urldata.csv"
     data = pd.read_csv(url)
     return data
 
@@ -130,3 +130,4 @@ def main():
 # ----------------------------------------
 if __name__ == "__main__":
     main()
+
